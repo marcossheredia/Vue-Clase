@@ -13,7 +13,7 @@
     const buenMensaje=ref('');
     const sNombreUser=ref('');
     const files=ref([]);
-    const isUploading=ref(false);
+    let isUploading=ref(false);
     const uploadProgress=ref(0);
     const downloadURL=ref('');
 
