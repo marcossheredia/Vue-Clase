@@ -1,9 +1,15 @@
 <script setup>
+    /*import { ref } from 'vue';
+    import Login from './auth/Login.vue';
+    import Register from './auth/Register.vue';
+    import Home from './home/Home.vue';
+    */
+
     import { ref } from 'vue';
     import Login from './auth/Login.vue';
     import Register from './auth/Register.vue';
     import Home from './home/Home.vue';
-
+    
     const blLoginVisible=ref(true);
     const blRegistroVisible=ref(false);
     const blHomeVisible=ref(false);

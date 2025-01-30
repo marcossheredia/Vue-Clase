@@ -1,9 +1,15 @@
 <script setup>
-    import { ref,onMounted } from 'vue';
+    /*import { ref,onMounted } from 'vue';
     //import { db } from '@/firebase';
     import { useFirestore,useFirebaseAuth } from 'vuefire';
     import { doc, getDoc, getDocs , collection, setDoc, addDoc } from "firebase/firestore";
+    */
 
+    import { ref,onMounted } from 'vue';
+    import { useFirestore, useFirebaseAuth } from 'vuefire';
+    import { doc, getDoc, getDocs , collection, setDoc, addDoc } from "firebase/firestore";
+
+    
     const arPosts=ref([]);
 
     const sNombreUsuario=ref('');

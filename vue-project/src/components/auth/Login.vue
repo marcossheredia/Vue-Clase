@@ -1,9 +1,17 @@
 <script setup>
-    import { ref } from 'vue';
+    /*import { ref } from 'vue';
     //import { VueFire, VueFireAuth } from 'vuefire'
 
     import {signInWithEmailAndPassword,sendPasswordResetEmail} from 'firebase/auth'
     import { useCurrentUser, useFirebaseAuth } from 'vuefire'
+    */
+
+    import { ref } from 'vue';
+    //import { VueFire, VueFireAuth } from 'vuefire';
+
+    import {signInWithEmailAndPassword,sendPasswordResetEmail} from 'firebase/auth';
+    import { useCurrentUser, useFirebaseAuth } from 'vuefire';
+    
     const emit = defineEmits(['logeado','solicitaRegistro']);
 
     const sUsuario=ref('');

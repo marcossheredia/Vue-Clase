@@ -1,11 +1,20 @@
 <script setup>
-    import { ref } from 'vue';
+    /*import { ref } from 'vue';
     import { createUserWithEmailAndPassword,sendEmailVerification } from 'firebase/auth';
     import { useFirebaseAuth,useFirestore } from 'vuefire';
     import {collection, addDoc, setDoc,doc } from "firebase/firestore";
     import { VFileUpload } from 'vuetify/labs/VFileUpload'
     import { getStorage, uploadBytesResumable, getDownloadURL, ref as refStorage } from "firebase/storage";
+    */
 
+    import { ref } from 'vue';
+    import { createUserWithEmailAndPassword,sendEmailVerification } from 'firebase/auth';
+    import { useFirebaseAuth,useFirestore } from 'vuefire';
+    import {collection, addDoc, setDoc,doc } from "firebase/firestore";
+    import {VFileUpload} from 'vuetify/labs/VFileUpload';
+    import { getStorage, uploadBytesResumable, getDownloadURL, ref as refStorage } from 'firebase/storage';
+
+    
     const sUsuarioRe=ref('');
     const sPasswordRe=ref('');
     const sRepetirPasswordRe=ref('');
